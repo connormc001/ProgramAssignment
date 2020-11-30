@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FF0F4AE-1879-4E86-99DB-DCA948242BA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactUs.Designer.cs">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="database.Designer.cs">
+      <DependentUpon>database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment.Designer.cs">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmparts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmparts.Designer.cs">
+      <DependentUpon>frmparts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStock.Designer.cs">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRental.Designer.cs">
+      <DependentUpon>frmRental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepair.Designer.cs">
+      <DependentUpon>frmRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplier.Designer.cs">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyCustomer.cs" />
+    <Compile Include="MyException.cs" />
+    <Compile Include="MyParts.cs" />
+    <Compile Include="MyStock.cs" />
+    <Compile Include="MyValidation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepairPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairPage.Designer.cs">
+      <DependentUpon>RepairPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUs.resx">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="database.resx">
+      <DependentUpon>database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment.resx">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmparts.resx">
+      <DependentUpon>frmparts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStock.resx">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRental.resx">
+      <DependentUpon>frmRental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepair.resx">
+      <DependentUpon>frmRepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplier.resx">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RepairPage.resx">
+      <DependentUpon>RepairPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-gym-equipment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymgirl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GymPlus_Ropes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-gym-equipment1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footbaklk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\121522684_2735904156698203_4336926682593895602_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\121550207_456456751992907_3902965291162961300_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Ways-Gym-Owners-Can-Keep-Their-Staff-Happy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-cartoon-background-gym-with-girls-doing-fitness_33099-1205.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff-gym.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ireland.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banner-Gym-Floor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lifting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equipmentimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymequipment2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymequipment3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymequipment4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repairimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repairimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repairimage3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

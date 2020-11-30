@@ -1,0 +1,17 @@
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AboutUs.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ContactUs.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.database.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Equipment.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmCustomer.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmRental.resources
+C:\Users\Patrick\OneDrive - North West Regional College\Programming III\COCO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmRepair.resources
